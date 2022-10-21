@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    <method name="doButtonAction">
+      <createInstance id="objs.rect" id-type="string" parent="panel" parent-type="object" relative="" relative-type="" x="5" x-type="integer" y="5" y-type="integer"/>
+    </method>
+  <method name="doButtonAltAction">
+      <createInstance id="objs.circle" id-type="string" parent="panel" parent-type="object" relative="" relative-type="" x="5" x-type="integer" y="5" y-type="integer"/>
+    </method>
+  <method name="doButton3Action">
+      <createInstance id="objs.rhombus" id-type="string" parent="panel" parent-type="object" relative="" relative-type="" x="5" x-type="integer" y="5" y-type="integer"/>
+    </method>
+  </class>
+</root>

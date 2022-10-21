@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="rhombus">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour direction="ALL" type="behaviour\custom\LimitedMovementBehaviour" where="VIEW"/>
+  </target>
+  <target id="circle">
+    <behaviour direction="ALL" type="behaviour\custom\LimitedMovementBehaviour" where="VIEW"/>
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="ELLIPSE" solid="" solidType="PLATFORM" startVelocity="[0,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="rect">
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour direction="ALL" type="behaviour\custom\LimitedMovementBehaviour" where="VIEW"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="RECTANGLE" solid="" solidType="THING" startVelocity="[5,0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+</behaviours>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="640" styleClass="">
+  <children>
+    <Rectangle arcHeight="0" arcWidth="0" fill="#cce6ff" focusTraversable="false" height="48" id="rect" layoutX="56" layoutY="24" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect" visible="1"/>
+    <Circle fill="#cce6ff" focusTraversable="false" id="circle" layoutX="80" layoutY="112" radius="24" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass=""/>
+    <Data cursor="DEFAULT" enabled="1" id="data-circle" visible="1"/>
+    <Polygon fill="#cce6ff" focusTraversable="false" id="rhombus" layoutX="56" layoutY="152" stroke="#334db3" strokeType="INSIDE" strokeWidth="2" styleClass="">
+      <points xmlns:fx="http://javafx.com/fxml">
+        <Double fx:value="0"/>
+        <Double fx:value="-24"/>
+        <Double fx:value="24"/>
+        <Double fx:value="0"/>
+        <Double fx:value="0"/>
+        <Double fx:value="24"/>
+        <Double fx:value="-24"/>
+        <Double fx:value="0"/>
+      </points>
+    </Polygon>
+    <Data cursor="DEFAULT" enabled="1" id="data-rhombus" visible="1"/>
+  </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="objs">
+    <method name="doRectClickRight">
+      <setAngleSpeed direction="90" direction-type="float" object="rect" object-type="object" speed="5" speed-type="float"/>
+      <collisionBounce bounciness="2" bounciness-type="float" object="rect" object-type="object"/>
+    </method>
+  </class>
+</root>
